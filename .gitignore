@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data & models (often large — track with DVC/Git LFS instead)
+data/
+models/
+*.pkl
+*.joblib
+*.h5
+
+# Reports output
+reports/figures/*.png
+reports/figures/*.pdf
+
+# Environment / secrets
+.env
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
