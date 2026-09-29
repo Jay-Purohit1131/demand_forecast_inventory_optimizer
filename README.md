@@ -226,13 +226,3 @@ reports/    figures
 scikit-learn - lightgbm - xgboost - statsmodels - shap - joblib - pytest - pandas
 
 ---
-
-### CV bullet
-
-> Built a calibrated, decision-aware demand-forecasting system on Walmart M5:
-> a global LightGBM model across 1,437 intermittent retail series cut scaled
-> error ~21% below a seasonal-naive baseline (MASE 0.72 vs 0.91) under a
-> leak-free, time-aware backtest; produced calibrated prediction intervals
-> (coverage verified across the backtest) and a newsvendor decision layer that
-> reduced inventory cost 11.3% versus ordering the mean, with SHAP explanations
-> and a pytest suite proving no future-data leakage.
